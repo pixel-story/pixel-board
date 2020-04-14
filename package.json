@@ -1,0 +1,33 @@
+{
+  "name": "pixel-board",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixel-story/pixel-board.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pixel-story/pixel-board/issues"
+  },
+  "homepage": "https://github.com/pixel-story/pixel-board#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^4.2.0",
+    "sass": "^1.26.3",
+    "sass-loader": "^8.0.2",
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "@types/html-webpack-plugin": "^3.2.2"
+  }
+}
